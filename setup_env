@@ -3,3 +3,4 @@ export PATH=$PATH:/usr/lib/ruby/gems/1.8/gems/wukong-1.4.9/bin
   export PIG_HOME=${PIG_HOME-/usr/local/share/pig}
   export JAVA_HOME=${JAVA_HOME-/usr/lib/jvm/java-6-sun/jre}
   export PIG_CLASSPATH=/etc/hadoop/conf
+export WWW_HOME=chef.howeville.com
