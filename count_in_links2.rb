@@ -12,7 +12,7 @@ module CountInLinks
       line.split(/\t/) rescue nil
     end
     def accumulate *args
-      puts args.join("-")
+      #puts args.join("-")
       args.each_index do |i|
         self.columns[i] = args[i] if !columns[i] || args[i].length > columns[i].length
       end
